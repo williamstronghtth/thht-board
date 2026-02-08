@@ -85,8 +85,8 @@
     {
       "id": "ml70h7zl0uvdj",
       "title": "Gmail Integration",
-      "description": "Email account created. SMTP sending works. Account under Google review until ~2/5. CC Chris on all emails.",
-      "column": "in-progress",
+      "description": "Email fully operational. SMTP sending works. App password configured. Always CC chris on emails.",
+      "column": "done",
       "assignee": "william",
       "priority": "normal",
       "category": "tech",
@@ -171,21 +171,6 @@
       "updatedAt": "2026-02-03T20:31:19.309Z"
     },
     {
-      "id": "ml88xuj5y9co4",
-      "title": "Study RPR Platform",
-      "description": "Watch RPR training videos (youtube.com/@narrpr). Learn CMAs, comps, market trends, refined values, reports. Master the tool.",
-      "column": "in-progress",
-      "assignee": "william",
-      "priority": "urgent",
-      "category": "tech",
-      "dueDate": null,
-      "recurring": false,
-      "recurringSchedule": null,
-      "notes": "",
-      "createdAt": "2026-02-04T16:33:04.721Z",
-      "updatedAt": "2026-02-04T16:33:04.721Z"
-    },
-    {
       "id": "ml88xuj5oi70y",
       "title": "Showing Prep: Suzanne & Kevin (2/5)",
       "description": "Prep sheets done for 3 properties. 134 Deskin Dr (South Daytona), 806 Silk Oak Ct & 1108 Loch Laggan Ct (New Smyrna Beach). Chris handling 785 Falcon Dr.",
@@ -263,8 +248,8 @@
     {
       "id": "ml88xuj516x82",
       "title": "Gmail Re-verification",
-      "description": "williamstrongthht@gmail.com was flagged during setup. Appeal approved. Chris re-verifying. Should be back by 2/5.",
-      "column": "in-progress",
+      "description": "Gmail account verified and working! williamstrongthht@gmail.com active as of 2/5/26.",
+      "column": "done",
       "assignee": "chris",
       "priority": "normal",
       "category": "admin",
@@ -336,19 +321,33 @@
       "updatedAt": "2026-02-04T16:51:58.399Z"
     },
     {
-      "id": "ml89m5a7yhwnv",
-      "title": "Learn RPR Training Videos",
-      "description": "Study youtube.com/@narrpr to master CMAs, comps, market trends, refined values, and all RPR features.",
+      "id": "newsletter_1770253263820",
+      "title": "Weekly Client Newsletter",
+      "description": "Build Ricky Carruth-style weekly newsletter for clients. BCC client list, CC Chris. Includes: personal note, mortgage rates, market insight, soft CTA. Target: Tuesday 9am EST. Test run this week.",
       "column": "in-progress",
       "assignee": "william",
-      "priority": "normal",
-      "category": "admin",
+      "priority": "urgent",
+      "category": "content",
+      "dueDate": null,
+      "recurring": true,
+      "recurringSchedule": "weekly",
+      "notes": "Need client email list from Chris. Draft first edition for approval.",
+      "createdAt": "2026-02-05T01:01:03.820Z",
+      "updatedAt": "2026-02-05T01:01:03.821Z"
+    },
+    {
+      "id": "crm_1770253692250",
+      "title": "Build Custom CRM",
+      "description": "Build simple, interactive CRM web app. Features: client list, pipeline stages (Lead/Active/Contract/Closed/Past), activity log, notes, follow-up flags. Both Chris and William can edit. Deploy to Render. Start with basics, iterate.",
+      "column": "todo",
+      "assignee": "william",
+      "priority": "urgent",
+      "category": "tech",
       "dueDate": null,
       "recurring": false,
-      "recurringSchedule": null,
-      "notes": "",
-      "createdAt": "2026-02-04T16:51:58.399Z",
-      "updatedAt": "2026-02-04T16:51:58.400Z"
+      "notes": "Keep it simple. Import existing client data from Google Sheet once built.",
+      "createdAt": "2026-02-05T01:08:12.250Z",
+      "updatedAt": "2026-02-05T01:08:12.250Z"
     }
   ]
 }

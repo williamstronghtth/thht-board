@@ -26,6 +26,7 @@
       --chris: #8b5cf6;
       --william: #06b6d4;
       --both: #f59e0b;
+      --team: #22c55e;
     }
 
     body {
@@ -229,6 +230,7 @@
     .tag-chris { background: rgba(139,92,246,0.2); color: var(--chris); }
     .tag-william { background: rgba(6,182,212,0.2); color: var(--william); }
     .tag-both { background: rgba(245,158,11,0.2); color: var(--both); }
+    .tag-team { background: rgba(34,197,94,0.2); color: var(--team); }
 
     .tag-category {
       background: rgba(59,130,246,0.15);
@@ -421,6 +423,7 @@
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="chris">Chris</button>
     <button class="filter-btn" data-filter="william">William</button>
+    <button class="filter-btn" data-filter="team">Team</button>
     <button class="add-btn" onclick="openModal()">+ New Card</button>
   </div>
 </header>
@@ -449,6 +452,7 @@
           <option value="both">Both</option>
           <option value="chris">Chris</option>
           <option value="william">William</option>
+          <option value="team">Team</option>
         </select>
       </div>
 
@@ -480,6 +484,7 @@
         <select id="cardColumn">
           <option value="backlog">📋 Backlog</option>
           <option value="todo">🎯 To Do</option>
+          <option value="team">👥 Team</option>
           <option value="in-progress">🔄 In Progress</option>
           <option value="review">👀 Review</option>
           <option value="done">✅ Done</option>
@@ -521,6 +526,7 @@
 const COLUMNS = [
   { id: 'backlog', label: '📋 Backlog' },
   { id: 'todo', label: '🎯 To Do' },
+  { id: 'team', label: '👥 Team' },
   { id: 'in-progress', label: '🔄 In Progress' },
   { id: 'review', label: '👀 Review' },
   { id: 'done', label: '✅ Done' }
@@ -606,7 +612,7 @@ function createCardEl(card) {
   });
 
   const assigneeClass = `tag-${card.assignee}`;
-  const assigneeLabel = card.assignee === 'both' ? 'Both' : card.assignee === 'chris' ? 'Chris' : 'William';
+  const assigneeLabel = card.assignee === 'both' ? 'Both' : card.assignee === 'chris' ? 'Chris' : card.assignee === 'team' ? 'Team' : 'William';
   const categoryLabel = card.category ? card.category.replace('-', ' ') : '';
 
   let metaTags = `
