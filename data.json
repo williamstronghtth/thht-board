@@ -350,6 +350,51 @@
       "notes": "Requested by Chris 2026-03-19",
       "createdAt": "2026-03-19T12:27:00.000Z",
       "updatedAt": "2026-03-23T13:04:27.142707Z"
+    },
+    {
+      "id": "browns_landing_1774364602",
+      "title": "Browns Landing Direct Mail Campaign",
+      "description": "Direct mail campaign targeting Browns Landing area.",
+      "column": "todo",
+      "assignee": "william",
+      "priority": "normal",
+      "category": "marketing",
+      "dueDate": null,
+      "recurring": false,
+      "recurringSchedule": null,
+      "notes": "",
+      "createdAt": "2026-03-24T13:01:00.000Z",
+      "updatedAt": "2026-03-24T13:01:00.000Z"
+    },
+    {
+      "id": "jack_sullivan_1774364602",
+      "title": "Jack Sullivan Reactivation",
+      "description": "Reactivate contact with Jack Sullivan.",
+      "column": "todo",
+      "assignee": "william",
+      "priority": "urgent",
+      "category": "operations",
+      "dueDate": null,
+      "recurring": false,
+      "recurringSchedule": null,
+      "notes": "",
+      "createdAt": "2026-03-24T13:01:00.000Z",
+      "updatedAt": "2026-03-24T13:01:00.000Z"
+    },
+    {
+      "id": "willow_role_1774364602",
+      "title": "Willow Hayes Role Assignment",
+      "description": "Define and assign role for Willow Hayes.",
+      "column": "backlog",
+      "assignee": "chris",
+      "priority": "normal",
+      "category": "operations",
+      "dueDate": null,
+      "recurring": false,
+      "recurringSchedule": null,
+      "notes": "",
+      "createdAt": "2026-03-24T13:01:00.000Z",
+      "updatedAt": "2026-03-24T13:01:00.000Z"
     }
   ]
 }
