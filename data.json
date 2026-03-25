@@ -354,7 +354,7 @@
     {
       "id": "browns_landing_1774364602",
       "title": "Browns Landing Direct Mail Campaign",
-      "description": "Direct mail campaign targeting Browns Landing area.",
+      "description": "Direct mail campaign targeting Browns Landing neighborhood. Design mailers, pull address list, coordinate printing and distribution. Track response rate.",
       "column": "todo",
       "assignee": "william",
       "priority": "normal",
@@ -364,12 +364,12 @@
       "recurringSchedule": null,
       "notes": "",
       "createdAt": "2026-03-24T13:01:00.000Z",
-      "updatedAt": "2026-03-24T13:01:00.000Z"
+      "updatedAt": "2026-03-25T13:03:00.000Z"
     },
     {
       "id": "jack_sullivan_1774364602",
       "title": "Jack Sullivan Reactivation",
-      "description": "Reactivate contact with Jack Sullivan.",
+      "description": "Reactivation outreach for Jack Sullivan \u2014 past contact gone cold. Review last activity in CRM, craft personalized re-engagement message, schedule follow-up cadence.",
       "column": "todo",
       "assignee": "william",
       "priority": "urgent",
@@ -379,12 +379,12 @@
       "recurringSchedule": null,
       "notes": "",
       "createdAt": "2026-03-24T13:01:00.000Z",
-      "updatedAt": "2026-03-24T13:01:00.000Z"
+      "updatedAt": "2026-03-25T13:03:00.000Z"
     },
     {
       "id": "willow_role_1774364602",
       "title": "Willow Hayes Role Assignment",
-      "description": "Define and assign role for Willow Hayes.",
+      "description": "Define Willow Hayes role within the team. Note: Willow is the Hoover family nutritionist, NOT a THHT team member. Clarify scope and any team-adjacent responsibilities.",
       "column": "backlog",
       "assignee": "chris",
       "priority": "normal",
@@ -394,7 +394,7 @@
       "recurringSchedule": null,
       "notes": "",
       "createdAt": "2026-03-24T13:01:00.000Z",
-      "updatedAt": "2026-03-24T13:01:00.000Z"
+      "updatedAt": "2026-03-25T13:03:00.000Z"
     }
   ]
 }
